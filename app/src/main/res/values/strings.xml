@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">3majówka 2018</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="city_center">City Center</string>
+    <string name="pergola">Pergola</string>
+    <string name="centennial_hall">Centennial Hall</string>
+    <string name="event">Event</string>
+    <string name="concert">Concert</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="friday">Friday</string>
+    <string name="agenda">Agenda</string>
+    <string name="search">Search</string>
+    <string name="exit">Exit</string>
+    <string name="exit_confirmation">Are you sure you want to quit?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="search_for_band_day_etc">Search for an event</string>
+</resources>

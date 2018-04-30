@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">3majówka 2018</string>
+    <string name="navigation_drawer_open">Otwórz szufladę nawigacji</string>
+    <string name="navigation_drawer_close">Zamknij szufladę nawigacji</string>
+
+    <string name="pergola">Pergola</string>
+    <string name="centennial_hall">Hala Stulecia</string>
+    <string name="city_center">Rynek</string>
+    <string name="event">Wydarzenie</string>
+    <string name="concert">Koncert</string>
+    <string name="friday">Piątek</string>
+    <string name="agenda">Terminarz</string>
+    <string name="search">Wyszukaj</string>
+    <string name="wednesday">Środa</string>
+    <string name="tuesday">Wtorek</string>
+    <string name="exit">Wyjście</string>
+    <string name="exit_confirmation">Czy napewno chcesz opuścić aplikację?</string>
+    <string name="no">Nie</string>
+    <string name="yes">Tak</string>
+    <string name="search_for_band_day_etc">Szukaj wydarzenia</string>
+
+</resources>
