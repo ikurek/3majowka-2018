@@ -20,7 +20,7 @@ class AgendaFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_agenda, container, false)
 
 
-        var pagerAdapter = AgendaViewPagerAdapter(fragmentManager!!, EventUtils.generateEventMap(context!!))
+        val pagerAdapter = AgendaViewPagerAdapter(fragmentManager!!, EventUtils.generateEventMap(context!!))
         view.viewpager_agenda.adapter = pagerAdapter
 
 

@@ -7,16 +7,13 @@ import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
 import android.text.Editable
 import android.text.TextWatcher
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.kapss.majowka2018.Agenda.AgendaRecyclerViewAdapter
 import com.kapss.majowka2018.Model.Event
 import com.kapss.majowka2018.Model.EventUtils
-
 import com.kapss.majowka2018.R
-import kotlinx.android.synthetic.main.fragment_search.*
 import kotlinx.android.synthetic.main.fragment_search.view.*
 
 
@@ -68,10 +65,10 @@ class SearchFragment : Fragment() {
 
                     filteredListOfEvents = listOfEvents.filter {
                         it.name.contains(s!!, true) ||
-                        it.type.contains(s!!, true) ||
-                        it.location.contains(s!!, true) ||
-                        it.time.contains(s!!, true) ||
-                        it.day.contains(s!!, true)
+                                it.type.contains(s, true) ||
+                                it.location.contains(s, true) ||
+                                it.time.contains(s, true) ||
+                                it.day.contains(s, true)
                     }.toTypedArray()
 
                     view.recyclerview_search_fragment.adapter = AgendaRecyclerViewAdapter(filteredListOfEvents, true, context!!)

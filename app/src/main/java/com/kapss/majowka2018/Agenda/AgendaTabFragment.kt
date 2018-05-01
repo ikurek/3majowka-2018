@@ -1,9 +1,9 @@
 package com.kapss.majowka2018.Agenda
 
 
-import android.content.Context
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
 import android.view.LayoutInflater
 import android.view.View
@@ -11,9 +11,6 @@ import android.view.ViewGroup
 import com.kapss.majowka2018.Model.Event
 import com.kapss.majowka2018.R
 import kotlinx.android.synthetic.main.fragment_agenda_tab.view.*
-import android.support.v7.widget.DividerItemDecoration
-import android.support.v7.widget.RecyclerView
-import kotlinx.android.synthetic.main.fragment_agenda_tab.*
 
 
 class AgendaTabFragment : Fragment() {
@@ -30,13 +27,16 @@ class AgendaTabFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        val view = inflater.inflate(R.layout.fragment_agenda_tab, container, false)
+
+        return inflater.inflate(R.layout.fragment_agenda_tab, container, false)
+    }
+
+    override fun onStart() {
+        super.onStart()
 
         if (listOfEvents.isNotEmpty()) {
-            bindRecyclerView(view)
+            bindRecyclerView(view!!)
         }
-
-        return view
     }
 
 

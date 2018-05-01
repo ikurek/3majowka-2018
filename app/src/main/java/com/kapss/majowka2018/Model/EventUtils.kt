@@ -34,7 +34,7 @@ object EventUtils {
                 Event("Ayo", context.getString(R.string.centennial_hall), "20:00", context.getString(R.string.concert), context.getString(R.string.wednesday)),
                 Event("Nocny Kochanek", context.getString(R.string.pergola), "21:30", context.getString(R.string.concert), context.getString(R.string.wednesday)),
                 Event("Bass Astral x Igo", context.getString(R.string.centennial_hall), "21:30", context.getString(R.string.concert), context.getString(R.string.wednesday)),
-                Event("Ørganek", context.getString(R.string.centennial_hall), "23:00", context.getString(R.string.concert), context.getString(R.string.wednesday)),
+                Event("Organek", context.getString(R.string.centennial_hall), "23:00", context.getString(R.string.concert), context.getString(R.string.wednesday)),
                 Event("Bokka", context.getString(R.string.centennial_hall), "00:30", context.getString(R.string.concert), context.getString(R.string.wednesday)),
                 Event("OSTR", context.getString(R.string.centennial_hall), "01:45", context.getString(R.string.concert), context.getString(R.string.wednesday)),
                 Event("Planowany koniec imprezy", context.getString(R.string.centennial_hall), "03:00", context.getString(R.string.event), context.getString(R.string.wednesday))

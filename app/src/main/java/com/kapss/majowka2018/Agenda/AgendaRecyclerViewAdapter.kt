@@ -9,8 +9,8 @@ import com.kapss.majowka2018.Model.Event
 import com.kapss.majowka2018.R
 import kotlinx.android.synthetic.main.event_row.view.*
 
-class AgendaRecyclerViewAdapter(val listOfEvents: Array<Event>,
-                                val showDay: Boolean,
+class AgendaRecyclerViewAdapter(private val listOfEvents: Array<Event>,
+                                private val showDay: Boolean,
                                 val context: Context) : RecyclerView.Adapter<EventViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): EventViewHolder {
