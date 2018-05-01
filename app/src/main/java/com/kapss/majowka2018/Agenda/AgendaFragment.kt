@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import com.kapss.majowka2018.Model.EventUtils
 import com.kapss.majowka2018.R
 import kotlinx.android.synthetic.main.fragment_agenda.view.*
+import java.util.*
 
 
 class AgendaFragment : Fragment() {
@@ -29,6 +30,14 @@ class AgendaFragment : Fragment() {
         view.tablayout_agenda.getTabAt(0)!!.text = getString(R.string.tuesday)
         view.tablayout_agenda.getTabAt(1)!!.text = getString(R.string.wednesday)
         view.tablayout_agenda.getTabAt(2)!!.text = getString(R.string.friday)
+
+        when (Calendar.getInstance().get(Calendar.DAY_OF_WEEK)) {
+            Calendar.TUESDAY -> view.viewpager_agenda.currentItem = 0
+            Calendar.WEDNESDAY -> view.viewpager_agenda.currentItem = 1
+            Calendar.THURSDAY -> view.viewpager_agenda.currentItem = 2
+        }
+
+
 
 
         return view

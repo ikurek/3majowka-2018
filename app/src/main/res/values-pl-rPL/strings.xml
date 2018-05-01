@@ -9,7 +9,7 @@
     <string name="city_center">Rynek</string>
     <string name="event">Wydarzenie</string>
     <string name="concert">Koncert</string>
-    <string name="friday">Piątek</string>
+    <string name="friday">Czwartek</string>
     <string name="agenda">Terminarz</string>
     <string name="search">Wyszukaj</string>
     <string name="wednesday">Środa</string>
@@ -24,6 +24,6 @@
     <string name="informations">Informacje</string>
     <string name="website_of_promoter">Strona organizatora:</string>
     <string name="about_app_title">O aplikacji:</string>
-    <string name="about_app">Aplikacja powstała w przeddzień samego wydarzenia, głównie z powodu braku oficjalnego odpowiednika i słabej czytelności strony internetowej na urządeniach mobilnych. Nie jestem w żaden sposób powiązany z samym wydarzeniem, chciałem jedynie ułatwić życie osobom, które biorą udział w 3majówce. Nie czerpię z aplikacji żadnych korzyści finansowych, a jej kod źródłowy jest publicznie dostepny do wglądu i edycji. Proszę, nie pozywajcie mnie.</string>
+    <string name="about_app">Aplikacja powstała w przeddzień samego wydarzenia, głównie z powodu braku oficjalnego odpowiednika i słabej czytelności strony internetowej na urządzeniach mobilnych. Nie jestem w żaden sposób powiązany z samym wydarzeniem, chciałem jedynie ułatwić życie osobom, które biorą udział w 3majówce. Nie czerpię z aplikacji żadnych korzyści finansowych, a jej kod źródłowy jest publicznie dostepny do wglądu i edycji. Proszę, nie pozywajcie mnie.</string>
     <string name="source_code_title">Kod źródłowy:</string>
 </resources>
