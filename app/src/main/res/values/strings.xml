@@ -18,4 +18,14 @@
     <string name="no">No</string>
     <string name="yes">Yes</string>
     <string name="search_for_band_day_etc">Search for an event</string>
+    <string name="website_url">http://www.3-majowka.pl/english-info/</string>
+    <string name="website_title">Official website of 3majówka:</string>
+    <string name="informations">Informations</string>
+    <string name="website_of_promoter">Website of promoter:</string>
+    <string name="promoter_url" translatable="false">http://wrockfest.pl</string>
+    <string name="about_app_title">About this app:</string>
+    <string name="about_app">This application was created one day before the event, mostly due to the lack of official one, and bad readability of website on mobile devices. I am not in any way related to the event, I only wanted to make life easier for people who take part in 3majówka. I don\'t have any profit from this application, it\'s source code is publicly available to browse and edit. Please, don\'t sue me.</string>
+    <string name="source_code_title">Source code:</string>
+    <string name="source_code_url" translatable="false">https://bit.ly/2HGRvo8</string>
+
 </resources>

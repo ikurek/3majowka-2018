@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
 import com.afollestad.materialdialogs.MaterialDialog
 import com.kapss.majowka2018.Agenda.AgendaFragment
+import com.kapss.majowka2018.Info.InfoFragment
 import com.kapss.majowka2018.Search.SearchFragment
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
@@ -51,6 +52,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_search -> {
                 swapFragment("SearchFragment")
             }
+            R.id.nav_info -> {
+                swapFragment("InfoFragment")
+            }
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)
@@ -71,6 +75,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                         .replace(R.id.content_main, SearchFragment(), tag)
                         .commit()
                 supportActionBar!!.setTitle(R.string.search)
+            }
+            "InfoFragment" -> {
+                supportFragmentManager.beginTransaction()
+                        .replace(R.id.content_main, InfoFragment(), tag)
+                        .commit()
+                supportActionBar!!.setTitle(R.string.informations)
             }
         }
 

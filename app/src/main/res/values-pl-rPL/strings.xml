@@ -19,5 +19,11 @@
     <string name="no">Nie</string>
     <string name="yes">Tak</string>
     <string name="search_for_band_day_etc">Szukaj wydarzenia</string>
-
+    <string name="website_url">http://www.3-majowka.pl</string>
+    <string name="website_title">Oficjalna strona 3majówki:</string>
+    <string name="informations">Informacje</string>
+    <string name="website_of_promoter">Strona organizatora:</string>
+    <string name="about_app_title">O aplikacji:</string>
+    <string name="about_app">Aplikacja powstała w przeddzień samego wydarzenia, głównie z powodu braku oficjalnego odpowiednika i słabej czytelności strony internetowej na urządeniach mobilnych. Nie jestem w żaden sposób powiązany z samym wydarzeniem, chciałem jedynie ułatwić życie osobom, które biorą udział w 3majówce. Nie czerpię z aplikacji żadnych korzyści finansowych, a jej kod źródłowy jest publicznie dostepny do wglądu i edycji. Proszę, nie pozywajcie mnie.</string>
+    <string name="source_code_title">Kod źródłowy:</string>
 </resources>
